@@ -80,7 +80,9 @@ text-transform: uppercase;
 }
 
 /* second section css is start */
-
+.game-section{
+    margin-top: 70px;
+}
 .online-game{
     text-align: center;
 }
@@ -131,10 +133,66 @@ font-weight: 700;
     width: 250px;
     
 }
+/* third section css is start */
+.button-image-pic{
+    display: flex;
+    align-items: center;
+    /* margin-left: 10px; */
+}
+.action{
+    margin: 10px;
+    font-size: 12px;
+}
+.grid-game{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) 1fr;
+   /* margin-bottom: 10px; */
+   gap: 5px;
+   text-align: center;
 
+   justify-content: center;
+   margin: auto;
 
+}
+.huge-image{
+    margin-top: 10px;
+    
+    /* border: none; */
+    /* background-color: #F948B2; */
+}
+.huge-image-btn{
+     margin-left: 30px; 
+    /* border-radius: 50px; */
+}
+.button-image-pic:hover{
+    border: 2px solid green;
+    border-radius: 30px;
+    color: #F948B2;
+}
 
+.button-image-pic{
+    border: none;
+    /* align-items: center;
+    justify-content: center; */
+    color: #0B0223;
+    margin-top: 20px;
+align-self: center;
+font-size: 10px;
+width: 170px;
+height: 70px;
+margin-left: 20px;
+border-radius: 20px;
 
+/* font-weight: 600; */
+line-height: normal;
+}
+.button-image-pic img{
+    width: 40px;
+    /* height: 50px; */
+}
+.game-word{
+    margin-bottom: 100px;
+}
 /* responsive item is start */
 @media screen and (max-width:576px) {
     main{
