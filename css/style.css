@@ -1,0 +1,122 @@
+/* css work is start */
+/* css header and nav work is start */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.play-game{
+    display: flex;
+    justify-content: space-around;
+}
+.text-main-div{
+    margin-top: 70px;
+    /* border: 2px solid green; */
+    /* margin-right: 30px; */
+}
+.game-text{
+    color: #0B0223;
+
+    margin-top: 0;
+    margin-bottom: 0;
+font-size: 2.5rem;
+
+font-weight: 500;
+/* border: 3px solid firebrick; */
+line-height: normal;
+}
+.fullstop-text{
+  
+/* border: 2px solid gold; */
+margin-top: 0;
+margin-bottom: 0;
+font-size: 95px;
+
+font-weight: 800;
+color:#F948B2;
+}
+.list-play{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #534C64;
+ 
+
+
+font-size: 20px;
+
+font-weight: 500;
+
+text-transform: lowercase;
+}
+.sign-btn,.rogue-btn{
+    color: #FFF;
+width: 150px;
+height: 50px;
+border: none;
+border-radius: 20px;
+background-color: #F948B2;
+font-size: 20px;
+
+font-weight: 600;
+
+text-transform: uppercase;
+}
+.rogue-btn{
+    background-color: #4EC5F7;
+    margin-left: 20px;
+}
+.play-img {
+    width: 100%;
+    /* border: 2px solid salmon; */
+    /* margin-left: 50px; */
+}
+.play-img img{
+    width: 500px;
+    margin-left: 150px;
+}
+
+/* responsive item is start */
+
+@media screen and (max-width:576px) {
+    main{
+        width: 100%;
+    }
+    .play-game{
+flex-direction: column;
+
+    }
+    .play-img img{
+        width: 350px;
+        margin-left: 3px;
+        position: relative;
+    }
+    section{
+        margin-left: 5px;
+        margin-right: 5px;
+         width: 400px; 
+        position: relative;
+    }
+    .sign-btn{
+        margin-left: 40px;
+    }
+    .rogue-btn{
+        margin: 0;
+        padding: 0;
+    }
+    .game-text{
+        margin-left: 35px;
+    }
+    .fullstop-text{
+        margin-left: 35px;
+        margin-right: 20px;
+        font-size: 70px;
+    }
+    .play-img{
+        width: 100%;
+    }
+ 
+}
