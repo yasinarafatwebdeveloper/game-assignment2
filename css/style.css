@@ -79,13 +79,68 @@ text-transform: uppercase;
     margin-left: 150px;
 }
 
-/* responsive item is start */
+/* second section css is start */
 
+.online-game{
+    text-align: center;
+}
+.game-image{
+    display: flex;
+   justify-content: space-around;
+   gap: 10px;
+}
+.game-text{
+    width: 100%;
+}
+.image-text p{
+
+    color: #534C64;
+
+font-size: 16px;
+
+font-weight: 400;
+
+}
+.online-game h1{
+    color: #0B0223;
+
+
+    font-size: 48px;
+    
+    font-weight: 700;
+}
+.online-game p{
+    color: #534C64;
+text-align: center;
+
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px; 
+}
+.color-video{
+    color: teal;
+
+
+font-size: 48px;
+
+font-weight: 700;
+
+}
+.image-text img{
+    width: 250px;
+    
+}
+
+
+
+
+/* responsive item is start */
 @media screen and (max-width:576px) {
     main{
         width: 100%;
     }
-    .play-game{
+    .play-game ,.game-image{
 flex-direction: column;
 
     }
@@ -118,5 +173,10 @@ flex-direction: column;
     .play-img{
         width: 100%;
     }
- 
+ /* first section is done */
+.gaming{
+    width: 400px;
+}
+
+
 }
