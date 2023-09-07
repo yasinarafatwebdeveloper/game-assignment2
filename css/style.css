@@ -3,6 +3,41 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.game-header{
+    margin: 70px;
+}
+nav> ul{
+    display: flex;
+  justify-content: end;
+  /* border: 2px solid gold; */
+  /* justify-content: space-around; */
+}
+/* nav a{
+    margin-top: 250px;
+} */
+nav li{
+    list-style: none;
+    margin: 20px;
+    /* margin-bottom: 350px; */
+    border: 2px solid darkcyan;
+    /* display: inline; */
+}
+
+.img-class{
+    display: flex;
+ /* justify-content: end; */
+}
+ /* .img-class img{
+    margin-top: 50px;
+ } */
+.img-class li {
+    list-style: none;
+    
+}
+.img-class a{
+    font-size: 20px;
+    font-weight: 700;
+}
 section{
     margin-left: 240px;
     margin-right: 240px;
@@ -193,6 +228,69 @@ line-height: normal;
 .game-word{
     margin-bottom: 100px;
 }
+
+/* third section css has end */
+
+footer{
+    background: #0B0223;
+    margin-top: 120px;
+}
+.gamer-heading{
+    
+
+font-size: 45px;
+
+font-weight: 700;
+padding: 10px;
+color: white;
+
+}
+.span-game{
+
+    font-size: 45px;
+
+    font-weight: 700;
+    color: #F948B2;
+}
+.gamer-img,.btn-logo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin: 10px;
+    font-size: 30px;
+  border-radius: 15px;
+    border: none;
+}
+.footer-item > ul{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.footer-item ul li{
+    list-style: none;
+    margin: 20px;
+}
+.footer-layout-game > ul{
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+.footer-layout-game li{
+    list-style: none;
+    margin: 10px;
+   
+}
+.footer-layout-game li a{
+    color: #fff;
+}
+
+.footer-last-item{
+    color: white;
+  text-align: center;
+}
 /* responsive item is start */
 @media screen and (max-width:576px) {
     main{
@@ -223,6 +321,9 @@ flex-direction: column;
     .game-text{
         margin-left: 35px;
     }
+    .game-image{
+        text-align: center;
+    }
     .fullstop-text{
         margin-left: 35px;
         margin-right: 20px;
@@ -235,6 +336,9 @@ flex-direction: column;
 .gaming{
     width: 400px;
 }
-
+.grid-game{
+     grid-template-columns:repeat(4,1fr); 
+   
+}
 
 }
